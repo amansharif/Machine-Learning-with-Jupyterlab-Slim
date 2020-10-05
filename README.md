@@ -20,21 +20,21 @@ It’s pretty easy and straight forward process. Please visit the [link](https:/
 
 ## Steps to follow after docker installation
 
-- First lets check docker is properly installed or not. Open your terminal and fire the below command.
+1) First lets check docker is properly installed or not. Open your terminal and fire the below command.
 
 '''docker version'''
   
-  You should get the following output.
+You should get the following output.
 
-  ![](docker-version.png)
+![](docker-version.png)
 
-- Since docker is running perfectly now we can move to the second step. Fire the below command.
+2) Since docker is running perfectly now we can move to the second step. Fire the below command.
 
 '''docker run -itd --rm -p 8080:8080 aman10/ml-tutor'''
 
 ![](docker-run.png)
 
-- Now open your browser and copy paste the below URL and give password 'aman' when prompted.
+3) Now open your browser and copy paste the below URL and give password 'aman' when prompted.
 
 '''http://host.docker.internal:8080'''
 
