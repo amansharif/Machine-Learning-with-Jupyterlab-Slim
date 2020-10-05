@@ -2,7 +2,7 @@
 ![FED UP!!!](fedup.png)
 
 ## Introduction
-It's always fun to learn Machine Learning (ML). But setting up the environment is a tedious task and eats up a lot of time as well as energy. You need to install python, then libraries, dependencies, Jupyter etc. By the time you finish configuration you're exhausted. Isn't it true? But what if you don't need to do any of those? What if someone else takes care of those on behalf of you and you can enjoy Machine Learning? Sounds so Great. Right? Well, 'Docker' to the rescue! You just need to install 'Docker' on your machine and need not to worry about anything else. You can set up the environment and demolish any time you want. All of these is just a command away from you. The idea is to provide a configured environment so that teachers can focus on teaching and students can focus on learning.
+It's always fun to learn Machine Learning (ML). But setting up the environment is a tedious task and eats up a lot of time as well as energy. You need to install python, then libraries, dependencies, Jupyter etc. By the time you finish configuration you're exhausted. Isn't it true? But what if you don't need to do any of those? What if someone else takes care of those on behalf of you and you can enjoy Machine Learning? Sounds so Great. Right? Well, 'Docker' to the rescue! You just need to install `Docker` on your machine and need not to worry about anything else. You can set up the environment and demolish any time you want. All of these is just a command away from you. The idea is to provide a configured environment so that teachers can focus on teaching and students can focus on learning.
 
 ## What you’ll get here?
 - Configured Jupyter Lab (Image size 1.83 GB)
@@ -22,7 +22,7 @@ It’s pretty easy and straight forward process. Please visit the [link](https:/
 
 1) First lets check docker is properly installed or not. Open your terminal and fire the below command.
 
-'''docker version'''
+```docker version```
   
 You should get the following output.
 
@@ -30,25 +30,25 @@ You should get the following output.
 
 2) Since docker is running perfectly now we can move to the second step. Fire the below command.
 
-'''docker run -itd --rm -p 8080:8080 aman10/ml-tutor'''
+```docker run -itd --rm -p 8080:8080 aman10/ml-tutor```
 
 ![](docker-run.png)
 
-3) Now open your browser and copy paste the below URL and give password 'aman' when prompted.
+3) Now open your browser and copy paste the below URL and give password `aman` when prompted.
 
-'''http://host.docker.internal:8080'''
+```http://host.docker.internal:8080```
 
-![](j-lab1.png)
+![](j-lab1.PNG)
 
 Viola !!! Your Jupyter Notebook with all crucial ML codes organized to learn and practice.
 
 **SUGGESTION:** Go through the codes chronologically.
 
-![](j-lab2.png)
+![](j-lab2.PNG)
 
 Enjoy Machine Learning
 
-![](j-lab3.png)
+![](j-lab3.PNG)
 
 **NOTE:** You can close the browser and revisit the URL again. Your notebook will be there until or unless you shut down it manually.
 
@@ -56,6 +56,6 @@ Enjoy Machine Learning
 
 It's very simple. Just shutdown the Jupyter Lab.
 
-![](j-lab4.png)
+![](j-lab4.PNG)
 
 ## License
