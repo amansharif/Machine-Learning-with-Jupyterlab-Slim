@@ -50,4 +50,12 @@ Enjoy Machine Learning
 
 ![](j-lab3.png)
 
+**NOTE:** You can close the browser and revisit the URL again. Your notebook will be there until or unless you shut down it manually.
+
+## What to do when you're done ?
+
+It's very simple. Just shutdown the Jupyter Lab.
+
+![](j-lab4.png)
+
 ## License
