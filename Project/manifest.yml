@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ML-Tutor-deployment
+  labels:
+    app: ML-Tutor
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ML-Tutor
+  template:
+    metadata:
+      labels:
+        app: ML-Tutor
+    spec:
+      containers:
+      - name: ML-Tutor
+        image: aman10/ml-tutor
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ML-Tutor-service
+spec:
+  selector:
+    app: ML-Tutor
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
