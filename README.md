@@ -1,4 +1,4 @@
-# ML-Tutor
+# Machine Learning with jupyterlab-slim
 ![FED UP!!!](fedup.png)
 
 ## Introduction
@@ -31,7 +31,7 @@ You should get the following output.
 
 2) Since docker is running perfectly now we can move to the second step. Fire the below command.
 
-```docker run -itd --rm -p 8080:8080 aman10/ml-tutor```
+```docker run -itd --rm -p 8080:8080 aman10/jupyterlab-slim```
 
 ![](docker-run.PNG)
 
